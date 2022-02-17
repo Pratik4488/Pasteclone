@@ -9,7 +9,7 @@ const User = require("./models/user")
 const userRoute = require("./Routes/users")
 const cookieParser = require('cookie-parser')
 const { redirect } = require('express/lib/response')
-const PORT =  process.env.PORT || 8000;
+const port =  process.env.PORT || 80;
 
 dotenv.config();
 
